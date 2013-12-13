@@ -74,7 +74,7 @@ function nginx_cache_purge_item() {
         done
     else
         echo "$1 is not cached."
-        exit 3
+        exit 0
     fi
 } # nginx_cache_purge_item
 
